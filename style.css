@@ -1,0 +1,39 @@
+#header {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+    display: block;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#first {
+    width: 80%;
+    margin: 0 auto;
+}
+.Anniversary > li {
+    float: left;
+    width: 50%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.Anniversary::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.Anniversary a {
+    text-align: center;
+    background-color: #dfdfdf;
+    padding:50px 0;
+}
